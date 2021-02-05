@@ -8,7 +8,10 @@ body {
   padding-left: 1rem !important;
   padding-right: 1rem !important;
 }
-
+.navbar-icon {
+  height: 5rem;
+  width: 20rem;
+}
 .navbar .nav-item.active {
   border-left: #444 3px solid;
 }
@@ -31,15 +34,21 @@ body {
   background: url('../img/image3.jpg');
   background-size: cover;
 }
-
+.home-heading {
+  object-fit: cover;
+  height: 15rem;
+  width: 100%;
+}
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url('../img/lights.jpg');
+  /* background: url('../img/lights.jpg'); */
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
+  width: 100%;
+  background-position: cover;
 }
 
 .dark-overlay {
